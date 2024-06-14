@@ -168,8 +168,8 @@ function changeRole(array, newRole) {
   // Ітеруємося по масиву об'єктів за допомогою циклу "for of"
   for (const a of array) {
     a.role = newRole;
+    console.log(a);
   }
-  console.log(array);
   // Змінюємо роль кожного користувача на нове ім'я
   // Виводимо об'єкт на консоль
 }
